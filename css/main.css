@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "animated";
+  src: url("animated.ttf");
+}
+
+html,body {
+  width: 40em;
+  height: 40em;
+}
+
+h3 {
+  display: inline;
+  font-family: "animated";
+  font-size: 2.4em;
+}
+
+#turn{
+  border: 2px solid black;
+  width: 2em;
+  height: 2em;
+  display: inline-block;
+}
+
+.player1{
+  background-image: url("../img/circle.png");
+  background-size: cover;
+}
+
+.player2{
+  background-image: url("../img/cross.png");
+  background-size: cover;
+}
+
+.case {
+  border: 2px solid black;
+  width: 10em;
+  height: 10em;
+  display: inline-block;
+}
+
+#reset {
+  display: inline-block;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+#reset_button{
+  padding: 10%;
+}
